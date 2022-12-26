@@ -19,8 +19,9 @@
   },
   "homepage": "https://github.com/Mariaclara0310/bolisOBEP#readme",
   "dependencies": {
-    "express": "^4.18.2",
+    "bootstrap-icons": "^1.10.2",
     "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.20",
     "sequelize": "^6.26.0",
