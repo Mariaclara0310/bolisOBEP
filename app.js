@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 app.use('/', mainRouters);
 
 
-app.listen(3000, () => console.log("Servidor up"));
+app.listen((process.env.PORT || 3000), () => console.log("Servidor up"));
 
 
  app.get('/', (req, res) => {
