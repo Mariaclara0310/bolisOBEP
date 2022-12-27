@@ -3,106 +3,49 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  text-align: center;
+ 
 }
 body {
-  background-color: #2d4263;
-  padding-top: 40px;
+  background-color: black;
+  padding-top: 50px;
+  
   
 
+  }
 
+/* .baner{
+
+  width: 750px;
+  height: 750px;
+  margin: auto;
+  background-size: 100% 100%;
+  animation-name: baner 10s infinite;
+      
+}
+ @keyframes baner{
+  0%, 30% {
+      background-image: url(/img/OBEP\ \(2\).gif);  
+  
+}0%, 50% {
+  background-image: url(/img/OBEP\ \(2\).gif); 
+
+}0%, 100% {
+  background-image: url(/img/OBEP\ \(2\).gif); 
 
 }
-.container{
- 
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  
-  
-}
+ } */
 
-h2{
-  
-  text-align: center;
-  margin: 30px 0px;
-}
+
 img {
   width: 320px;
   height: 340px;
   object-fit: cover;
   border-radius: 20px 20px 0px 0px;
 }
-header{
-  display: flex;
-  justify-content: center;
-  gap: 15%;
-  height: 40px;
-  top: 0;
-  width: 100%;
-}
-.scroll{
-  background-color: aliceblue;
-  box-shadow: .1rem .2rem .3rem #333;
-}
-.scroll img{
-  filter: invert(15%);
-}
-.scroll h2{
-  color: #141C29;
-}
 
-.contenedor{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin-bottom: 20px;
-}
-.contenedor>div{
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  background-color: #2d4263;
-  border-radius: 20px;
-}
-.contenedor>div:hover{
-  background-color: #11294d;
-}
 
-.informacion{
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 15px;
-}
 
-.informacion>p:first-child{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  font-weight: 300;
-}
-.informacion .precio {
-  font-size: 20px;
-  font-weight: 500;
-}
-.informacion .precio span{
-  font-size: 17px;
-  font-weight: 300;
-}
-.informacion button{
-  background-color: #263143;
-  width: 100px;
-  height: 35;
-  border-radius: 10px;
-  border: none;
-  font-size: 17px;
-  font-weight: 300;
-  cursor: pointer;
-}
-.informacion button:hover{
-  background-color: #2d4263;
-}
 .row{
   margin-left: 0px;
   margin-right: 0px;
@@ -110,82 +53,20 @@ header{
 .global{
   padding: 50px;
   color: #f0f9ff;
-  margin-top: 80px;
-  background-color: #2d4263;
+   background-color: #2d4263;
   background-image: url(/img/CANASTA\ BOLIS.jpg);
   background-position: center;
   background-size: cover;
   opacity: 0.9;
 }
-.global .curve{
-  position: absolute;
-  top: 17%;
-  
-  opacity: 0.2;
-  width: 90%;
-  height: 38%;
-  border-top-right-radius: 100px;
-  border-top-left-radius: 100px;
-}
-.global h6{
-  margin-top: 0;
-  margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-.global ul{
-  list-style-type: none;
-  line-height: 30px;
-  font-size: 15px;
-  margin-bottom: 0;
-}
-.global ul a{
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-.global ul a:hover{
-  opacity: 0.8;
-  color: #eee;
-}
-.global .social{
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  padding: 40px;
-  padding-bottom: 0px;
-  border-top: 1px solid #eee;
-  margin-top: 50px;
-}
 
-.global .social a:hover{
-  opacity: 0.9;
-  box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9);
-}
-.global .copyright{
-  text-align: center;
-  padding-top: 24px;
-  font-weight: 500;
-  opacity: 0.8;
-  font-size: 16px;
-}
-@media (max-width: 767px) {
-  .global .curve{
-    left: 5%;
-    height: 70%;
-  }
-  .global h6{
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .global ul{
-    text-align: center;
-  }
-  .social{
-    margin: 0 auto;
-  }
-}
+
+  
+  
+ 
+
+
+
+
+
+
